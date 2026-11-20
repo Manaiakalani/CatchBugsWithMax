@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-label="CatchBugsWithMax logo">
+  <defs>
+    <linearGradient id="dusk" x1="24" y1="4" x2="72" y2="92" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2C3E50"/>
+      <stop offset="100%" stop-color="#1A252F"/>
+    </linearGradient>
+    <linearGradient id="wingL" x1="18" y1="22" x2="46" y2="70" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F8C3D6"/>
+      <stop offset="100%" stop-color="#E07A9F"/>
+    </linearGradient>
+    <linearGradient id="wingR" x1="50" y1="22" x2="78" y2="70" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#9FE7C3"/>
+      <stop offset="100%" stop-color="#3DDC97"/>
+    </linearGradient>
+  </defs>
+  <circle cx="48" cy="48" r="46" fill="url(#dusk)"/>
+  <circle cx="48" cy="48" r="44.5" fill="none" stroke="#3DDC97" stroke-width="3"/>
+  <circle cx="48" cy="52" r="28" fill="none" stroke="#ECF0F1" stroke-width="3.2" opacity="0.85"/>
+  <path d="M48 24v56 M20 52h56 M28 32l40 40 M68 32L28 72" fill="none" stroke="#ECF0F1" stroke-width="1.4" opacity="0.35"/>
+  <ellipse cx="34" cy="38" rx="16" ry="20" fill="url(#wingL)"/>
+  <ellipse cx="62" cy="38" rx="16" ry="20" fill="url(#wingR)"/>
+  <ellipse cx="36" cy="62" rx="11" ry="13" fill="#E57A9B"/>
+  <ellipse cx="60" cy="62" rx="11" ry="13" fill="#3DDC97"/>
+  <ellipse cx="40" cy="36" rx="4.5" ry="5.5" fill="#FFE9F2" opacity="0.9"/>
+  <ellipse cx="56" cy="36" rx="4.5" ry="5.5" fill="#E7FFF4" opacity="0.9"/>
+  <rect x="45" y="30" width="6" height="38" rx="3" fill="#F4E1C1"/>
+  <circle cx="48" cy="27" r="5" fill="#F4E1C1"/>
+  <path d="M44 23c-4-8-10-10-14-8" fill="none" stroke="#F4E1C1" stroke-width="2" stroke-linecap="round"/>
+  <path d="M52 23c4-8 10-10 14-8" fill="none" stroke="#F4E1C1" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="34" cy="14" r="2.2" fill="#FFE135"/>
+  <circle cx="62" cy="14" r="2.2" fill="#FFE135"/>
+</svg>
