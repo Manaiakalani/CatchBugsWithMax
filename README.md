@@ -1,10 +1,27 @@
-# 🦋 CatchBugsWithMax
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/assets/logo-dark.svg" />
+    <img src="docs/assets/logo.svg" alt="CatchBugsWithMax logo" width="96" />
+  </picture>
+  <h1>CatchBugsWithMax</h1>
+  <p><strong>An Animal Crossing-style bug catching browser game.</strong></p>
+  <p>
+    <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License" /></a>
+    <a href="https://github.com/Manaiakalani/CatchBugsWithMax/actions/workflows/pages.yml"><img src="https://github.com/Manaiakalani/CatchBugsWithMax/actions/workflows/pages.yml/badge.svg" alt="Deploy GitHub Pages" /></a>
+  </p>
+  <p>
+    <a href="https://manaiakalani.github.io/CatchBugsWithMax/">Play</a>
+    ·
+    <a href="#-features">Features</a>
+    ·
+    <a href="#-getting-started">Getting started</a>
+  </p>
+  <img src="docs/assets/hero.png" alt="CatchBugsWithMax screenshot" width="800" />
+  <br />
+  <img src="docs/assets/gameplay.gif" alt="CatchBugsWithMax gameplay" width="800" />
+</div>
 
-**An Animal Crossing-style bug catching browser game.** Drift through a lofi garden, hover to scoop up critters with your net, and keep those corporate Sev 1 bombs out of production.
-
-<p align="center">
-  <img src=".github/social-preview.png" alt="CatchBugsWithMax: Animal Crossing-style bug catching browser game with lofi vibes, built in pure HTML5" width="800">
-</p>
+Drift through a lofi garden, hover to scoop up critters with your net, and keep those corporate Sev 1 bombs out of production.
 
 **How to play:** move your cursor to guide the net (🥅) · hover a bug to catch it · hover a bomb (💣) and the garden becomes a Sev 1 incident.
 
@@ -14,14 +31,14 @@
 | --- | --- |
 | **What** | A cozy, zero-install bug catching game that lives in a single HTML page. Hover to catch. No clicks required. |
 | **Why** | A tiny peaceful break: glassmorphism skies, fluttering emoji bugs, and work-life satire when a 💣 slips through the net. |
-| **Try it** | Open [`index.html`](index.html) in any modern browser. No build, no account, no `npm install`. |
+| **Try it** | [Play on GitHub Pages](https://manaiakalani.github.io/CatchBugsWithMax/) or open [`index.html`](index.html) in any modern browser. No build, no account, no `npm install`. |
 
-There is no GitHub Pages (or other documented live) URL for this project yet: clone or download the repo and open the file.
+The game is a static HTML5 page. After this workflow deploys, it will be live at [https://manaiakalani.github.io/CatchBugsWithMax/](https://manaiakalani.github.io/CatchBugsWithMax/). You can also clone or download the repo and open the file.
 
 ## 🎮 How to Play
 
 1. **Guide the net**: your cursor *is* the net.
-2. **Hover bugs** to catch them. Commons are 1 point; rares, ultra-rares, and secrets score more.
+2. **Hover bugs** to catch them. Commons are 1 point, rares are 5, and ultra-rares are 10.
 3. **Avoid bombs** (💣) or the session ends with a dreaded Sev 1 IcM.
 4. **Grab power-ups** if they drift by: 🥇 golden net (2× points), 🧲 magnet (more rares), 🛡️ shield (bomb protection).
 5. **Open the hamburger menu** (top-right) for dark mode and stats.
@@ -54,13 +71,17 @@ python3 -m http.server 8000
 # then visit http://localhost:8000
 ```
 
+Or play the hosted copy at [https://manaiakalani.github.io/CatchBugsWithMax/](https://manaiakalani.github.io/CatchBugsWithMax/).
+
 ## 📁 Project Structure
 
 ```
 /
 ├── index.html    # Game UI with embedded CSS
 ├── script.js     # Game logic and interactions
-└── README.md     # You are here
+├── LICENSE       # MIT License
+├── README.md     # You are here
+└── docs/assets/  # Logo, screenshot, and gameplay GIF
 ```
 
 ---
