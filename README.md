@@ -12,9 +12,9 @@
   <p>
     <a href="https://manaiakalani.github.io/CatchBugsWithMax/">Play</a>
     ·
-    <a href="#features">Features</a>
+    <a href="#-features">Features</a>
     ·
-    <a href="#getting-started">Getting started</a>
+    <a href="#-getting-started">Getting started</a>
   </p>
   <img src="docs/assets/hero.png" alt="CatchBugsWithMax screenshot" width="800" />
   <br />
@@ -38,7 +38,7 @@ The game is a static HTML5 page. After this workflow deploys, it will be live at
 ## 🎮 How to Play
 
 1. **Guide the net**: your cursor *is* the net.
-2. **Hover bugs** to catch them. Commons are 1 point; rares, ultra-rares, and secrets score more.
+2. **Hover bugs** to catch them. Commons are 1 point, rares are 5, and ultra-rares are 10.
 3. **Avoid bombs** (💣) or the session ends with a dreaded Sev 1 IcM.
 4. **Grab power-ups** if they drift by: 🥇 golden net (2× points), 🧲 magnet (more rares), 🛡️ shield (bomb protection).
 5. **Open the hamburger menu** (top-right) for dark mode and stats.
